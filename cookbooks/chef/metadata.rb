@@ -8,6 +8,7 @@ version          "13.5.0"
 supports "centos"
 supports "redhat"
 supports "ubuntu"
+supports "windows"
 
 depends "rightscale"
 
