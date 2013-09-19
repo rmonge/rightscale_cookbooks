@@ -10,7 +10,7 @@ rightscale_marker
 
 # Copy Chef Client installation script from cookbook files.
 # Sourced from https://www.opscode.com/chef/install.sh
-cookbook_file "/tmp/install.sh" do
+cookbook_file "/tmp/install.msi" do
   source "install.msi"
   mode "0755"
   cookbook "chef"
