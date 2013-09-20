@@ -6,7 +6,7 @@
 # http://www.rightscale.com/terms.php and, if applicable, other agreements
 # such as a RightScale Master Subscription Agreement.
 
-rightscale_marker
+#rightscale_marker
 
 # Copy Chef Client installation script from cookbook files.
 # Sourced from https://www.opscode.com/chef/install.sh
