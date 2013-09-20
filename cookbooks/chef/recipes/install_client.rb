@@ -18,7 +18,7 @@ end
 
 # Installs the Chef Client using user selected version.
 execute "install chef client" do
-  command "c:/tmp/install.msi"
+  command "c:/TEMP/install.ms"
 end
 
 log "  Chef Client version #{node[:chef][:client][:version]} installation is" +
