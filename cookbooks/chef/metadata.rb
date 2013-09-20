@@ -10,7 +10,7 @@ supports "redhat"
 supports "ubuntu"
 supports "windows"
 
-depends "rightscale"
+#depends "rightscale"
 
 recipe "chef::install_client",
   "Installs and configures the Chef Client."
