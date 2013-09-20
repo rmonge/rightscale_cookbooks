@@ -10,7 +10,7 @@
 
 # Copy Chef Client installation script from cookbook files.
 # Sourced from https://www.opscode.com/chef/install.sh
-cookbook_file "/tmp/install.msi" do
+cookbook_file "/TEMP/install.msi" do
   source "chef-client-11.6.0-1.windows.msi"
   mode "0755"
   cookbook "chef"
