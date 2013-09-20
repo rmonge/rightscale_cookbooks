@@ -7,7 +7,7 @@
 # such as a RightScale Master Subscription Agreement.
 
 # The Chef client configuration directory
-set[:chef][:client][:config_dir] = "/etc/chef"
+set[:chef][:client][:config_dir] = "c:/chef"
 
 # Recommended attributes
 default[:chef][:client][:version] = "10.24.0-1"
@@ -26,6 +26,6 @@ default[:chef][:client][:runlist_override] = ""
 # The level of logging that will be stored in the log file
 default[:chef][:client][:log_level] = "info"
 # The location of the log file
-default[:chef][:client][:log_location] = "/var/log/chef-client.log"
+default[:chef][:client][:log_location] = "/chef/chef-client.log"
 # The secret key used to encrypt the data bag items
 default[:chef][:client][:data_bag_secret] = ""
