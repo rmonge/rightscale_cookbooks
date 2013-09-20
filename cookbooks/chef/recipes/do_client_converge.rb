@@ -6,7 +6,7 @@
 # http://www.rightscale.com/terms.php and, if applicable, other agreements
 # such as a RightScale Master Subscription Agreement.
 
-rightscale_marker
+#rightscale_marker
 
 log "  Current Chef Client role(s) are: #{node[:chef][:client][:current_roles]}"
 
